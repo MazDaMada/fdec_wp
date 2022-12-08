@@ -41,7 +41,10 @@
 			&copy;<?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>
 			<!-- Delete below lines to remove copyright from footer -->
 			<span class="footer-info-right">
-				<?php echo __(' | WordPress Theme:', 'ecocoded') ?> <a href="<?php echo esc_url('https://superbthemes.com/ecocoded/', 'ecocoded'); ?>"><?php echo __(' EcoCoded', 'ecocoded') ?></a>
+				<?php echo __(' | WordPress', 'ecocoded') ?> 
+			</span>
+			<span class="footer-info-right">
+				<a href="<?php echo esc_url('#', 'ecocoded'); ?>"><?php echo __(' Mentions légales', 'ecocoded') ?></a>
 			</span>
 			<!-- Delete above lines to remove copyright from footer -->
 		</div><!-- .site-info -->
